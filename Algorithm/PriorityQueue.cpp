@@ -95,7 +95,6 @@ private:
 
 int main()
 {
-	//priority_queue<int> pq;
 	Priority_queue pq;
 
 	pq.push(5);

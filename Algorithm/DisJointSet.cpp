@@ -57,7 +57,6 @@ public:
 	// [0] [2] [4] [5]
 	// [1]
 	// [3]
-	// parent[3] = 1, parent[1] = 0
 
 	int FindLeader(int u)
 	{

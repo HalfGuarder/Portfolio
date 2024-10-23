@@ -6,10 +6,6 @@
 
 using namespace std;
 
-// Enchant
-// N만큼 강화
-// +1, +2, +3
-
 int N = 0; // 100000
 // +1 +1 +1
 // +1 +2
@@ -70,12 +66,7 @@ int Enchant2(int target)
 int main()
 {
 	int result = Enchant2(0);
-	
-	// 서식 지정자
-	// %c : character
-	// %s : string
-	// %d : 부호 있는 10진 정수 decimal
-	// %f : float
+
 	int tmp = 1;
 	printf("Hello World! %d \n .... tmp : %d", result, tmp);
 

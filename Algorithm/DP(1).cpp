@@ -36,12 +36,9 @@ int Combination(int n, int r)
 
 int main()
 {
-	//cout << Combination(100, 30) << endl;
-
 	vector<int> v = { 1, 2, 3, 4, 5, 6, 7 };
 	vector<int> tmp = {};
 	
-	// 7P3
 	int count = 1;
 	int tmpCount = 0;
 	while (true)

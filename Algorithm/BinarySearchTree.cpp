@@ -2,7 +2,7 @@
 
 BinarySearchTree::~BinarySearchTree()
 {
-	// TODO : 노드들 삭제 필요
+
 }
 
 void BinarySearchTree::Insert(int key)

@@ -59,16 +59,13 @@ void QuickSort(vector<int>& v, int left, int right)
 
 	QuickSort(v, left, pivotIndex - 1);
 	QuickSort(v, pivotIndex + 1, right);
-	
 }
 
 int main()
 {
 	vector<int> v = { 55,30,15,100,1,5,70,30 };
-	//QuickSort(v, 0, v.size() - 1);
+
 	std::sort(v.begin(), v.end());
 	
-
-
 	return 0;
 }

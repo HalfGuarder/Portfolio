@@ -7,7 +7,6 @@
 
 using namespace std;
 
-// queue : 줄 세우기(게임에서 큐 돌린다)
 // First Input First Out : FIFO
 
 template <typename T, typename Container = list<int>>
@@ -56,7 +55,7 @@ int main()
 			break;
 		}
 
-		cout << q.front() << endl; // 업무
+		cout << q.front() << endl;
 		q.pop();
 	}
 

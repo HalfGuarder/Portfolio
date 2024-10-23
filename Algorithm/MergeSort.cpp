@@ -57,40 +57,7 @@ void MergeResult(vector<int>& v, int left, int mid, int right)
 	for (int i = 0; i < temp.size(); i++)
 	{
 		v[left + i] = temp[i];
-	}
-
-
-	/*while (leftIndex <= mid && rightIndex <= right)
-	{
-		if (v[leftIndex] <= v[rightIndex])
-		{
-			temp.push_back(v[leftIndex]);
-			leftIndex++;
-		}
-		else if (v[leftIndex] > v[rightIndex])
-		{
-			temp.push_back(v[rightIndex]);
-			rightIndex++;
-		}
-	}
-
-	if (leftIndex > mid)
-	{
-		while (rightIndex <= right)
-		{
-			temp.push_back(v[rightIndex]);
-			rightIndex++;
-		}
-	}
-	else if (rightIndex > right)
-	{
-		while (leftIndex <= mid)
-		{
-			temp.push_back(v[leftIndex]);
-			leftIndex++;
-		}
-	}*/
-	
+	}	
 }
 
 void MergeSort(vector<int>& v, int left, int right)
@@ -110,13 +77,6 @@ void MergeSort(vector<int>& v, int left, int right)
 int main()
 {
 	vector<int> v = { 55, 30, 15, 100, 1, 5, 70, 30 };
-
-	// MergeSort(v, 0, v.size() - 1);
-	
-	// N * logN
-	// std::sort(v.begin(), v.end());
-	// std::partial_sort(v.begin(), v.begin() + 3, v.end());
-	// std::stable_sort(v.begin(), v.end());
 	
 	std::partial_sort(v.begin(), v.begin() + 3, v.end());
 

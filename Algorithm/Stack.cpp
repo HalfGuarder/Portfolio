@@ -6,10 +6,8 @@
 
 using namespace std;
 
-// stack : 팬케이크
 // FILO : First Input Last Out
 
-// int
 template<typename T, typename Container = vector<int>>
 class Stack
 {
@@ -25,7 +23,6 @@ public:
 private:
     Container _stack;
 };
-
 
 int main()
 {
@@ -46,7 +43,6 @@ int main()
         cout << s.Top() << endl;
         s.Pop();
     }
-
 
     return 0;
 }
